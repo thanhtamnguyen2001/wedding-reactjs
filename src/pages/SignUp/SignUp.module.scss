@@ -1,0 +1,15 @@
+.container {
+    min-height: 100vh;
+    padding: 40px 25%;
+}
+
+.button {
+    background-color: rgb(195, 136, 49);
+    border: none;
+    display: block;
+    margin: 0 auto;
+
+    &:hover {
+        background-color: rgb(214, 169, 100);
+    }
+}

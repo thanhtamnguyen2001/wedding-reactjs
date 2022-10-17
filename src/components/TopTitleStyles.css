@@ -1,0 +1,26 @@
+.topTitle-img {
+    height: 250px;
+}
+
+.topTitle-overlay {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.03));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topTitle-title {
+    font-size: 16px;
+}
+
+.topTitle-title a {
+    color: white;
+    font-weight: 300;
+}
+
+.topTitle-text {
+    font-size: 30px;
+    font-weight: 500;
+}

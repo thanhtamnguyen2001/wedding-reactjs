@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-primary {
+    color: rgb(214, 201, 100) !important;
+}
+
+body {
+    background-color: white;
+}
+
+#root > nav > div > button {
+    border-color: rgb(214, 169, 100);
+}
+
+.banner-img {
+    height: 650px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+/* Css Service Page */
+.show-content-4 {
+    line-height: 1.8rem;
+    height: calc(1.8rem * 4);
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+/* Css Hall Page */
+.list-menu {
+    background-color: rgb(195, 136, 49);
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.link-img {
+    height: 350px;
+}
+
+.img-card {
+    height: 100%;
+}
+
+/* Css Card Image */
+.container-card {
+    border: 2px solid rgb(175, 187, 49);
+    margin: 10px;
+}
+
+.img-350 {
+    height: 350px;
+}
+
+/* Css Offcanvas */
+.offcanvas-backdrop {
+    background-color: transparent;
+}
+
+// Scrollbar CSS
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
